@@ -6,6 +6,6 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) do |el|
-  el.upcase
-end
+# my_collect(collection) do |el|
+#   el.upcase
+# end
