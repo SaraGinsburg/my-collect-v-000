@@ -1,5 +1,8 @@
+collection = ["Sara Ginsburg", "ronald trump", " a  bbbb"]
+
 def my_collect(collection)
-  new_arr = ["Sara Ginsburg", "ronald trump", " a  bbbb"]
+  new_arr = []
+
   i = 0
 
   while i < collection.length
