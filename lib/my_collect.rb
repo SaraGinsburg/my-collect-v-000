@@ -1,5 +1,5 @@
 def my_collect(collection)
-  new_arr = []
+  new_arr = ["Sara Ginsburg", "ronald trump", " a  bbbb"]
   i = 0
 
   while i < collection.length
@@ -9,6 +9,6 @@ def my_collect(collection)
   new_arr
 end
 
-# my_collect do |el|
-#
-# end
+my_collect(collection) do |name|
+  name.split(" ").first
+end
