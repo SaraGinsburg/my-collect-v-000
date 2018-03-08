@@ -9,7 +9,7 @@ def my_collect(collection)
     new_arr << yield(collection[i])
     i += 1
   end
-  new_arr
+  puts new_arr
 end
 
 my_collect(collection) do |name|
